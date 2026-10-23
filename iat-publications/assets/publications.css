@@ -1,0 +1,117 @@
+/* Publications list and detail pages. Colors and fonts come from Flatsome. */
+
+.iat-pub-archive,
+.iat-pub-single {
+	padding: 40px 0 60px;
+}
+
+.iat-pub-page-title {
+	margin-bottom: 0.4em;
+}
+
+.iat-pub-filter {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 10px;
+	margin: 10px 0 30px;
+}
+
+.iat-pub-filter select {
+	width: auto;
+	min-width: 200px;
+	margin: 0;
+}
+
+.iat-pub-filter .button {
+	margin: 0;
+}
+
+.iat-pub-reset {
+	font-size: 0.9em;
+	text-decoration: underline;
+}
+
+.iat-pub-item {
+	padding: 24px 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.iat-pub-item:last-child {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.iat-pub-item-title {
+	margin: 0 0 6px;
+	font-size: 1.25em;
+	line-height: 1.35;
+}
+
+.iat-pub-authors {
+	margin: 0 0 4px;
+	font-weight: 600;
+}
+
+.iat-pub-meta,
+.iat-pub-doi {
+	margin: 0 0 10px;
+	font-size: 0.9em;
+	opacity: 0.75;
+}
+
+.iat-pub-summary {
+	margin: 0 0 12px;
+}
+
+.iat-pub-links {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+.iat-pub-links .button {
+	margin: 0;
+}
+
+.iat-pub-areas {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px;
+	margin: 0 0 8px;
+}
+
+.iat-pub-area {
+	padding: 2px 10px;
+	border: 1px solid currentColor;
+	border-radius: 99px;
+	font-size: 0.8em;
+	opacity: 0.8;
+}
+
+.iat-pub-area:hover {
+	opacity: 1;
+}
+
+.iat-pub-back {
+	margin-bottom: 20px;
+	font-size: 0.9em;
+}
+
+.iat-pub-figure {
+	margin: 30px 0 0;
+}
+
+.iat-pub-section-title {
+	margin: 36px 0 12px;
+	font-size: 1.3em;
+}
+
+.iat-pub-empty {
+	padding: 40px 0;
+}
+
+@media (max-width: 549px) {
+	.iat-pub-filter select {
+		width: 100%;
+	}
+}
